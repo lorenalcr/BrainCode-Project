@@ -1,0 +1,198 @@
+/*.footer{
+	text-align: center;
+	margin: 0%;
+	padding: 10;
+    left: 1px;
+    bottom: 0;
+    width: 100%;
+	word-spacing: 2px; 
+	letter-spacing: normal;
+	color: white;
+}
+*/
+.footer{
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	position: absolute;  
+    bottom: 0;
+    width: 100%;
+	word-spacing: 2px; /* Espaçamento entre as palavras */
+	letter-spacing: normal;
+	
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.title1{
+	color:white;
+	font-size: 400%;
+}
+
+.title2{
+	color: black;
+	text-align: center;
+}
+
+
+h2{
+	color: black;
+	
+
+}
+
+.p1 {
+	color: white;
+	text-align: center;
+	padding-left: 1%;
+	
+    
+}
+
+a {
+	color:white;
+	text-decoration: none; 
+}
+
+.consultar-tema{
+	background-color:#25292c;
+}
+
+/*Tabela*/
+table {
+	caption-side: bottom;
+    border-collapse: collapse;
+	width: 50%; 
+	margin: 0 auto;
+	
+}
+
+th {
+	color: white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	
+}
+
+td {
+	color:white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	background-color: #25292c;
+}
+
+th {
+	background-color:#25292c;
+    text-align: center; 
+}
+
+
+/*
+.container {
+	background-color:white;
+	border-radius: 10px;
+	color: black;
+	padding: 40px;
+	margin-top: 100px;
+	max-width: 400px;
+	
+}
+*/
+.background {
+	
+	background-image: url('../img/fundo1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative; /* Garante que a posição absoluta da logo é relativa ao corpo da página */
+}
+
+#cerebro1 {
+	position: absolute;
+	top: 65px;
+	left: 50%;
+	width: 120px;
+	height: 120px;
+	transform: translate(-50%, -50%);
+  }
+
+.title{
+	color: black;
+}
+
+.container1 {
+    position: relative;
+    display: inline-block; /* Isso faz com que o contêiner se ajuste ao tamanho da imagem */
+	top: 180px;
+	left: 90px;
+	
+	
+	
+}
+
+
+.linha-vertical {
+    position: absolute;
+    top: 140px;
+    left: 20px; /* Afasta a linha 20px da borda esquerda da tela */
+    width: 8px; 
+    height: 80vh; /* Altura da linha, cobrindo a altura da tela */
+    background-color: #381d75; 
+    z-index: 1; /* Garante que a linha esteja acima da imagem */
+	border-radius: 5px;
+}
+
+
+.background1 {
+	
+	background-image: url('../img/plan1.png');
+    background-size: cover; /* Garante que a imagem cubra todo o elemento */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Define a altura como 100% da altura da viewport */
+    position: relative;
+
+}
+  
+p{
+	color: white;
+	font-size: 190%;
+}
+  
+.imagem-sobreposta {
+	position: absolute; /* Posiciona a imagem absolutamente em relação ao viewport */
+    top: 2%; /* Ajusta a posição verticalmente */
+    left: 100%; /* Ajusta a posição horizontalmente */
+    width: 90%; /* Largura relativa da imagem */
+
+    
+
+}
+
+/*######################### Criar Tarefa#######################*/
+
+.background2{
+	background: linear-gradient(144deg,#e3e3f5, #f3edf7 50%, #e9f6fa);
+}
+
+
+
+.container2 {
+	background-color:white;
+	border-radius: 10px;
+	color: black;
+	padding: 40px;
+	margin-top: 100px;
+	max-width: 400px;
+	max-width: 800px; /* Largura máxima da caixa de informações */
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 100px; /* Espaçamento para posicionar mais para baixo */
+  }
+

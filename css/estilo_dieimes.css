@@ -1,0 +1,72 @@
+body { /* Não precisa colocar a class .tema p/Luciane */
+	padding-top: 50px;
+	color:white;
+	background-color:#25292c;
+}
+
+.image {
+	position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;	
+}
+
+.p1 {
+	text-align: center;
+	padding-left: 1%;	
+    
+}
+
+a {
+	color:white;
+	text-decoration: none; 
+}
+
+
+/* ##############  Design da tabela ########################## */
+
+table {
+	caption-side: bottom;
+    border-collapse: collapse;
+	width: 50%; 
+	margin: 0 auto;
+	
+}
+
+th {
+	color: white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	
+}
+
+td {
+	color:white;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 8px;
+	text-align: left;
+	background-color: #25292c;
+}
+
+th {
+	background-color:#25292c;
+    text-align: center; 
+}
+
+
+
+/* ############## FIM - Design da tabela ########################## */
+
+
+
+.footer{
+	text-align: center;
+	padding: 10px 0;
+	position: fixed;   
+    bottom: 0;
+    width: 100%;
+	word-spacing: 2px; /* Espaçamento entre as palavras */
+	letter-spacing: normal;
+}
